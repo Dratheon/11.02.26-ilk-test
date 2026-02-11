@@ -1,0 +1,126 @@
+[
+  {
+    "id": "PO-260210-002",
+    "supplierId": "SUP-01",
+    "supplierName": "EGE PROFİL",
+    "status": "sent",
+    "createdAt": "2026-02-10T22:11:47.582766",
+    "sentAt": "2026-02-10T22:12:40.033070",
+    "expectedDate": "2026-03-07",
+    "completedAt": null,
+    "items": [
+      {
+        "productCode": "18300",
+        "colorCode": "3",
+        "productName": "CARİSMA KASA 3",
+        "quantity": 20.0,
+        "unit": "boy",
+        "unitCost": 0.0,
+        "id": "POI-4FE43AD9",
+        "receivedQty": 0
+      }
+    ],
+    "deliveries": [],
+    "totalAmount": 0,
+    "notes": "deneme",
+    "createdBy": "Sistem Yöneticisi",
+    "relatedJobs": []
+  },
+  {
+    "id": "PO-260210-001",
+    "supplierId": "SUP-01",
+    "supplierName": "EGE PROFİL",
+    "status": "partial",
+    "createdAt": "2026-02-10T15:06:31.836644",
+    "sentAt": "2026-02-10T15:06:40.622378",
+    "expectedDate": "2026-02-28",
+    "completedAt": null,
+    "items": [
+      {
+        "productCode": "18320",
+        "colorCode": "3",
+        "productName": "CARİSMA KAPI 3",
+        "quantity": 10.0,
+        "unit": "boy",
+        "unitCost": 0.0,
+        "id": "POI-A18B2F04",
+        "receivedQty": 8
+      },
+      {
+        "productCode": "18300",
+        "colorCode": "3",
+        "productName": "CARİSMA KASA BEYAZ 3",
+        "quantity": 20.0,
+        "unit": "boy",
+        "unitCost": 0.0,
+        "id": "POI-DF78485A",
+        "receivedQty": 15
+      }
+    ],
+    "deliveries": [
+      {
+        "id": "DEL-6C195435",
+        "date": "2026-02-10",
+        "items": [
+          {
+            "productCode": "18320",
+            "colorCode": "3",
+            "quantity": 8
+          },
+          {
+            "productCode": "18300",
+            "colorCode": "3",
+            "quantity": 15
+          }
+        ],
+        "note": "",
+        "receivedBy": "Evren Bilgili"
+      }
+    ],
+    "totalAmount": 0,
+    "notes": "",
+    "createdBy": "Sistem Yöneticisi",
+    "relatedJobs": []
+  },
+  {
+    "id": "PO-260126-001",
+    "supplierId": "SUP-01",
+    "supplierName": "EGE PROFİL",
+    "status": "delivered",
+    "createdAt": "2026-01-26T14:17:11.710702",
+    "sentAt": "2026-01-27T21:44:56.629737",
+    "expectedDate": "2026-01-31",
+    "completedAt": "2026-02-06T19:03:02.469063",
+    "items": [
+      {
+        "productCode": "18300",
+        "colorCode": "3",
+        "productName": "",
+        "quantity": 5.0,
+        "unit": "boy",
+        "unitCost": 0.0,
+        "id": "POI-36E8F5C8",
+        "receivedQty": 5
+      }
+    ],
+    "deliveries": [
+      {
+        "id": "DEL-6FD3E227",
+        "date": "2026-02-06",
+        "items": [
+          {
+            "productCode": "18300",
+            "colorCode": "3",
+            "quantity": 5
+          }
+        ],
+        "note": "",
+        "receivedBy": "Ahmet Yılmaz"
+      }
+    ],
+    "totalAmount": 0,
+    "notes": "aa",
+    "createdBy": "Sistem",
+    "relatedJobs": []
+  }
+]

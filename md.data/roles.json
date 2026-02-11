@@ -1,0 +1,14 @@
+[
+  {
+    "id": "ROL-001",
+    "ad": "admin",
+    "aciklama": "Yönetici - Tüm yetkilere sahip",
+    "permissions": [
+      "*"
+    ],
+    "aktifMi": true,
+    "createdAt": "2025-01-15T09:00:00",
+    "updatedAt": "2025-01-15T09:00:00",
+    "deleted": false
+  }
+]
